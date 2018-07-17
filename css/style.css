@@ -12,6 +12,14 @@ body{
   color: #8B00FF;
 }
 
+.menu li a:hover{
+  color: #1896FF;
+}
+
+.menu li a:active{
+  color: red;
+}
+
 .content_pages h1, h2{
   color: black;
   font-size: 18px;
