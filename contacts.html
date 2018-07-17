@@ -4,9 +4,10 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Контакты</title>
+
 </head>
 <body>
-	<ul>
+	<ul class="menu">
 		<li><a href="index.html">Главная</a></li>
 		<li><a href="catalog.html">Каталог</a></li>
 		<li><a href="contacts.html">Контакты</a></li>
@@ -16,22 +17,25 @@
 	<h1>Напишите нам!</h1>
 	<form>
 		<fieldset>
-		<input type="text" size="30" placeholder="Имя"/>
-		<input type="text" size="30" placeholder="Email"/>
-		<br><br>
-		<input type="text" size="65" placeholder="Тема"/>
-		<br><br>
-		<textarea cols="53" rows="5" placeholder="Текст письма"></textarea>
-		<br><br>
-		<h2>Добавьте информацию о своих интересах</h2>
-		<input type="checkbox" name="answer1" value="a1"/>Сериалы
-		<br><br>
-		<input type="checkbox" name="answer2" value="a2"/>Видеоигры
-		<br><br><br>
-		<input type="button" value="Отправить" >
+			<div class="user_data">
+				<input type="text" placeholder="Имя"/>
+				<input type="text" placeholder="Email"/>
+				<br><br>
+				<input type="text" placeholder="Тема"/>
+				<br><br>
+				<textarea cols="53" rows="5" placeholder="Текст письма"></textarea>
+				<br><br>
+				<h2>Добавьте информацию о своих интересах</h2>
+				<input type="checkbox" name="answer1" value="a1"/>Сериалы
+				<br><br>
+				<input type="checkbox" name="answer2" value="a2"/>Видеоигры
+				<br><br><br>
+				<input type="button" value="Отправить" >
+			</div>
 
 		</fieldset>
 	</form>
+
 	<h2>Наши контактные данные:</h2>
 	<ul>
 		<li>+7(927)212-85-06</li>

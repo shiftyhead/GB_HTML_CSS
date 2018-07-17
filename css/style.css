@@ -3,11 +3,51 @@ body{
 }
 
 .menu li{
-  font-style: italic;
+  font-style: normal;
   font-size: 20px;
   list-style-type: none;
 }
 
 .menu li a{
   color: #8B00FF;
+}
+
+.content_pages h1, h2{
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #eaeaea;
+}
+
+.content_pages h1 + p{
+  color: #707070;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+}
+
+.content_pages h2 + p{
+  color: #484343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.content_pages ul{
+  color: black;
+  font-size: 16px;
+  list-style-image: url(../img/marker.png);
+}
+
+.user_data input[type="text"]{
+  width: 400px;
+  height: 20px;
+  color: #606060;
+  font-size: 20px;
+  font-style: italic;
+}
+
+a img{
+  border:2px solid black
 }
