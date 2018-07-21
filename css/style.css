@@ -12,6 +12,18 @@ body{
   color: #8B00FF;
 }
 
+.menu li a:hover{
+  color: #1896FF;
+}
+
+.menu li a:active{
+  color: red;
+}
+
+.content_pages a img{
+  border:2px solid black
+}
+
 .content_pages h1, h2{
   color: black;
   font-size: 18px;
@@ -40,14 +52,26 @@ body{
   list-style-image: url(../img/marker.png);
 }
 
+.header_logo{
+  background-color: #ff9400;
+  margin-top: 0;
+  padding: 20px 20px 20px 40px;
+}
+
 .user_data input[type="text"]{
   width: 400px;
   height: 20px;
   color: #606060;
   font-size: 20px;
   font-style: italic;
+  text-transform: capitalize;
 }
 
-a img{
-  border:2px solid black
+.user_data input[type="text"]:nth-child(2):focus{
+  color: white;
+  background-color: blue;
+}
+
+table, th, td{
+  border: 1px solid black;
 }
