@@ -68,6 +68,10 @@ body{
 }
 
 .user_data input[type="text"]:nth-child(2):focus{
-  color: black;
+  color: white;
   background-color: blue;
+}
+
+table, th, td{
+  border: 1px solid black;
 }
