@@ -1,3 +1,28 @@
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.header{
+  background-color: #ff9400;
+  height: 100px;
+}
+
+.content{
+  background-color: #E1E0E1;
+  height: 400px;
+}
+
+.footer{
+  background-color: #905BAE;
+  height: 100px;
+}
+
+.header img{
+  height: inherit;
+  margin-left: 20px;
+}
+
 body{
   background-color: #f8f8f8;
 }
@@ -52,11 +77,7 @@ body{
   list-style-image: url(../img/marker.png);
 }
 
-.header_logo{
-  background-color: #ff9400;
-  margin-top: 0;
-  padding: 20px 20px 20px 40px;
-}
+
 
 .user_data input[type="text"]{
   width: 400px;
