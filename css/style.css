@@ -23,25 +23,32 @@
   margin-left: 20px;
 }
 
+.header span{
+  float: right;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
 body{
   background-color: #f8f8f8;
 }
 
-.menu li{
+.menu {
   font-style: normal;
   font-size: 20px;
   list-style-type: none;
 }
 
-.menu li a{
+.menu a{
   color: #8B00FF;
 }
 
-.menu li a:hover{
+.menu a:hover{
   color: #1896FF;
+  text-decoration: none;
 }
 
-.menu li a:active{
+.menu a:active{
   color: red;
 }
 
