@@ -65,7 +65,22 @@ body{
 }
 
 .content_pages a img{
-  border:2px solid black
+  border:2px solid black;
+  float:left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.content_pages input[type="button"]:active{
+  background-color: gray;
+}
+
+.content_pages input[type="button"]:hover{
+  color: red;
+}
+
+.content_pages h2{
+  clear: both;
 }
 
 .content_pages h1, h2{
