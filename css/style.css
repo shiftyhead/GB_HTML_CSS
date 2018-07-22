@@ -58,6 +58,12 @@ body{
   color: red;
 }
 
+.catalog_items{
+  float: left;
+  width: 300px;
+  margin-right: 15px;
+}
+
 .content_pages a img{
   border:2px solid black
 }
