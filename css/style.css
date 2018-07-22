@@ -10,12 +10,13 @@
 
 .content{
   background-color: #E1E0E1;
-  height: 400px;
+  /* height: 400px; */
 }
 
 .footer{
   background-color: #905BAE;
   height: 100px;
+  clear: both;
 }
 
 .footer span{
