@@ -18,6 +18,12 @@
   height: 100px;
 }
 
+.footer span{
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
 .header img{
   height: inherit;
   margin-left: 20px;
