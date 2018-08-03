@@ -1,3 +1,5 @@
+
+
 .container{
   width: 800px;
   margin: 0 auto;
@@ -14,20 +16,120 @@
 }
 
 .footer{
-  background-color: #905BAE;
-  height: 100px;
+  background-color: #f7f7f7;
+  height: 384px;
+}
+
+.footer_h{
+  font-family: Montserrat;
+  color: #6c6c6c;
+  font-size: 18px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 24px;/* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.footer_t{
+  font-family: Montserrat;
+  color: #212121;
+  font-size: 14px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  line-height: 22px;/* Приближение из-за подстановки шрифтов */
+  text-align: left;
+}
+
+.footer_1{
+  width: 221px;
+  height: 139px;
+  float: left;
+}
+
+
+.footer_2{
+  margin-left: 10px;
+  width: 400px;
+  height: 101px;
+  float: left;
+}
+
+.footer_2_t_1{
+  font-family: Montserrat;
+  color: #212121;
+  font-size: 14px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 26px;/* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  text-transform: uppercase;
+  float: left;
+  margin-right: 20px;
+}
+
+.footer_2_t_2{
+  font-family: Montserrat;
+  color: #212121;
+  font-size: 14px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 26px;/* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  text-transform: uppercase;
   clear: both;
 }
 
-.footer span{
-  float: right;
-  margin-top: 10px;
-  margin-right: 10px;
+.footer_4{
+  width: 150px;
+  height: 180px;
+  margin-left: 0px;
+  float: left;
 }
 
-.header img{
+.footer_f{
+  border-width: 1px;
+  border-color: #d9dee1;
+  border-style: solid;
+  background-color: #ffffff;
+  width: 150px;
+  height: 21px;
+}
+
+.footer_copy{
+  clear: both;
+  font-family: Montserrat;
+  color: #6c6c6c;
+  font-size: 12px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 26px;/* Приближение из-за подстановки шрифтов */
+  width: inherit;
+}
+
+.footer_copy_i{
+  text-align: center;
+  float: left;
+  width: 33.3%;
+}
+
+.footer_copy_l{
+  width: 33.3%;
+  text-align: left;
+  float: left;
+
+}
+
+.footer_copy_r{
+  width: 33.3%;
+  text-align: right;
+  float: left;
+
+}
+
+.logo{
   height: inherit;
   margin-left: 20px;
+}
+
+.logo img{
+  height: inherit;
 }
 
 .header span{
