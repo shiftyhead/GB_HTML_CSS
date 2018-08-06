@@ -84,13 +84,22 @@
   float: left;
 }
 
-.footer_f{
+.footer_f_{
   border-width: 1px;
   border-color: #d9dee1;
   border-style: solid;
   background-color: #ffffff;
   width: 150px;
   height: 21px;
+}
+
+.footer_f_f{
+  float: left;
+}
+
+.footer_f_i{
+  margin-left: -25px;
+  clear: both;
 }
 
 .footer_copy{
