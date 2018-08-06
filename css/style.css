@@ -10,28 +10,43 @@
   height: 100px;
 }
 
+.menu a{
+  font-family: Montserrat;
+  color: #212121;
+  font-size: 14px;/* Approximation due to font substitution */
+  font-weight: 700;
+  line-height: 48px;/* Approximation due to font substitution */
+  text-align: right;
+  text-transform: uppercase;
+  text-decoration: none;
+  float: right;
+  margin-top: 30px;
+  margin-left: 12px;
+}
+
 .logo{
   height: inherit;
-  margin-left: 20px;
-  /* width: 400px; */
-  float: left;
 }
 
 .logo img{
   height: inherit;
 }
 
-.menu {
-  font-style: normal;
-  font-size: 20px;
-  list-style-type: none;
+.active{
+  margin-top: 50px;
+  margin-right: -85px;
   float: right;
-  margin-top: 40px;
-  margin-right: 20px;
 }
 
-.menu a{
-  color: #8B00FF;
+.search{
+  float: right;
+  margin-left: -300px;
+}
+
+.search img{
+  width: 15px;
+  margin-left: -23px;
+  margin-bottom: -3px;
 }
 
 .menu a:hover{
